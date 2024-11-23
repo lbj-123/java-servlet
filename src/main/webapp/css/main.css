@@ -1,0 +1,55 @@
+body{
+    background-image: url("../image/1.jpg");
+}
+
+.main-container{
+     width: 100%;
+    padding: 20px;
+}
+
+.main-container h1{
+    font-family: 宋体;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main-container header nav ul {
+    display: flex; /* 使用Flexbox进行横向排列 */
+    justify-content: space-between; /* 列表项之间的空间均匀分布（两端对齐） */
+    list-style-type: none;
+}
+
+.main-container header nav ul li a{
+    display: block; /* 链接作为块级元素，占据整个列表项的空间 */
+    padding: 10px 20px; /* 为链接添加内边距 */
+    text-decoration: none; /* 移除下划线 */
+    color: #333; /* 设置链接颜色 */
+}
+/* 弹窗样式 */
+.main-container .modal {
+    display: none; /* 默认隐藏 */
+    position: fixed; /* 固定在页面上 */
+    z-index: 1; /* 放置在背景之上，但通常建议设置一个更高的值以确保弹窗在所有内容之上 */
+    left: 50%; /* 水平居中 */
+    top: 50%; /* 垂直居中，如果需要的话 */
+    transform: translate(-50%, -50%); /* 根据弹窗自身的尺寸进行移动以实现居中 */
+    width: 200px; /* 弹窗宽度 */
+    height:200px; /* 弹窗高度 */
+    background: white;
+    border-radius: 20px; /* 圆角 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/*阴影*/
+}
+
+.main-container .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 从顶部开始，水平居中 */
+    padding: 20px;
+    /*border: 1px solid #888;*/
+    width: 80%; /* 弹窗宽度 */
+}
+
+.main-container .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}

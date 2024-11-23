@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.Info-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Info-container table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Info-container table caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.Info-container table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.Info-container table th {
+    background-color: #f0f0f0;
+}
+
+.Info-container table td {
+    background-color: #fafafa;
+}
+
+.Info-container form {
+    display: inline;
+}
+
+.Info-container button[type="submit"] {
+    padding: 6px 12px;
+    background-color: #ff5555; /* 红色按钮 */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.Info-container button[type="submit"]:hover {
+    background-color: #cc0000; /* 深红色按钮 */
+}

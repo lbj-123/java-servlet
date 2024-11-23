@@ -1,0 +1,10 @@
+<%@page language="java" contentType="text/html;charset=utf-8"%>
+<footer>
+ <!--鐗堟潈-->
+	<div class="banq">鏈綉绔欐墍鍒婅浇鐨勪俊鎭紝涓嶄唬琛ㄦ湰缃戣鐐广� 浣跨敤鏈綉绔欑浠讹紝鍔＄粡涔﹂潰鎺堟潈銆�BR>
+鏈粡鎺堟潈绂佹杞浇銆佸鍒跺強寤虹珛闀滃儚锛岃繚鑰呭皢渚濇硶杩界┒娉曞緥璐ｄ换銆�
+	</div>
+</footer>		
+
+	
+

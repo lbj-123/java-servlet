@@ -1,0 +1,188 @@
+/*html, body, div, img, p, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd, th, td, a {
+    list-style: none outside none;
+	}*/
+ ul, li, dl, dt, dd, th, td, a {
+    list-style: none outside none;
+	}
+image{
+	border:0;
+}
+body{
+	font-size: 12px;
+	color:#000000;
+}
+div{
+	border:0px solid;
+}
+a, a:link {
+    text-decoration: none;
+	color:#000000;
+}
+.clear {
+    clear: both;
+}
+/*background：url() no-repeat center center/cover
+第一段：url 表示指定图片位置，路径
+第二段：no-repeat 表示图片不重复
+第三段：表示水平方向上，显示图片的中间，垂直方向上，也显示图片的中央。
+第四段：cover，表示自动调整，以覆盖整个块元素区域。
+*/
+div#logo_main {
+	background: url("../image/top_bj.gif") no-repeat center;
+	margin: 0 auto; 
+	width: 950px; 
+	height: 109px;
+}
+
+
+/*menu*/
+#menu {
+	margin: 0 auto;
+	padding-top:10px;
+	width:950px;
+	text-align: center;
+	color:#0000ff;
+	background:#e8f3fb;
+	border-bottom:solid 1px #bfdaf5;
+	height:30px;
+	clear:both;
+	font-size:14px;
+	font-weight:bold;
+	letter-spacing: 1px;
+}
+#menu #user{
+	float: left;
+	margin: 0 20px;
+}
+
+nav{
+	float: right; 
+	height: 30px; 
+	margin: 0 20px;
+}
+
+nav ul{
+ float: left; 
+ margin: 0;
+}
+/* display:inline 的作用是设置对象做为行内元素显示,一行显示内容。
+*/
+#menu li{
+	display:inline;
+}
+#menu li a,#menu #user a{
+	padding:3px 5px;
+	color:#0000ff;
+}
+#menu li a:hover{
+	color:#ffffff;
+	background:#40b7ed;
+}
+
+/*menu end*/
+/* margin是外边距的意，
+当一个元素样式属性里有du margin:0 auto时，并且父元素的宽度是确定的，
+意思是这个元素处于其父元素的居中位置，并且这个元素的上下外边距为0
+即:上下外边距为0，左右自动，实际效果为左右居中*/
+#content{ 
+	width:950px; 
+	margin:0 auto;
+}
+main{ 
+	width:656px; 
+	float:right;
+	border:solid 1px #bfdaf5;
+}
+aside{ 
+	width:285px; 
+	float:left; 
+	border:solid 1px #bfdaf5;
+	padding-bottom:10px;
+}
+
+
+/*left*/
+aside section {
+    width: 285px;
+}
+
+aside hr{
+	width:264px;
+	margin:0 auto;
+}
+
+aside ul{
+    padding-left:10px;
+	margin-top:0;
+	margin-left:1px;
+}
+aside li {
+    font-size: 13px;
+    line-height: 24px;
+    color: #4a5265;
+    width: 280px;
+	overflow:hidden;
+	/*使用 overflow: hidden 隐藏溢出
+默认情况下，父div没有设置高度，它的高度可以被子div任意撑大。
+当父div有固定高度时，如果子div的高度超过父div的高度，那么子div会超出父div的束缚，这种情况就叫溢出。*/
+}
+
+
+/*left end*/
+
+/*newslist*/
+/*clear：both的含义是清除CSS中产生的浮动。在我们使用float浮动时，CSS也会产生浮动，为了保证css属性的正常使用和显示，我们需要手动清除浮动，而clear样式属性的作用就是这个。*/
+.news_list{ 
+	font-size: 16px;
+	padding:30px 0 0 30px; 
+	clear:both;
+	text-align: center;
+}
+
+.news_list ul  {
+    padding-left:10px;
+	margin-top:0;
+	margin-left:1px;
+}
+
+.news_list li{
+	width:610px;
+	height:28px;
+    list-style:none;
+}
+
+.dd_lm{
+	color:#4a5265;
+	width: 60px;
+	float: left;
+	font-size:15px;
+}
+.dd_time{
+	color:#919191;
+	float: right;
+	width: 140px;
+	font-size:13px;
+}
+.dd_bt{
+	color:#333;
+	width:360px;
+	float:left;
+	text-align: left;
+	font-size:15px;
+}
+.dd_bt a,.dd_bt a:visited{ 
+	color:#333;
+	text-decoration:none;
+}
+.dd_bt a:hover{ 
+	color:#990000; 
+	text-decoration:underline;
+}
+
+.blank20{ 
+	height:10px; 
+	overflow:hidden; 
+	clear:both;
+}
+
+

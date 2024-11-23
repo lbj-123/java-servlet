@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background:url("../image/1.jpg");
+    margin: 0;
+    padding: 0;
+    height: 400px;
+}
+.form-container{
+    width: 300px;
+    padding: 20px;
+    margin-top: 100px;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-container h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-container input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form-container button{
+    padding: 10px;
+    color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

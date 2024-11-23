@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background :url("../image/1.jpg");
+    margin: 0;
+    padding: 0;
+    height: 500px;
+}
+.form-container{
+    width: 300px;
+    padding: 20px;
+    margin-top: 100px;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.radio-group {
+    display: flex;
+    /* 移除 flex-wrap: wrap; 除非您需要换行 */
+    justify-content: center;
+    align-items: center; /* 垂直居中 */
+    /* 您可以添加一个外边距或内边距以改善布局 */
+    padding: 10px;
+    border: 1px solid #ccc; /* 可选：添加边框以突出显示组 */
+    border-radius: 5px; /* 可选：添加圆角 */
+}
+.radio-group .auto-login-text {
+    /* 设置自动登录文本的样式 */
+    font-weight: bold; /* 加粗字体 */
+    margin-right: 10px; /* 与radio按钮之间的间距 */
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center; /* 确保radio按钮和文本垂直对齐 */
+    margin: 0 10px; /* 在标签之间添加水平间距 */
+    cursor: pointer; /* 鼠标悬停时显示小手图标 */
+}
+
+.form-container button{
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-container a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007BFF;
+}
